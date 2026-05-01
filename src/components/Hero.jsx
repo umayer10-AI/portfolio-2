@@ -43,7 +43,7 @@ export default function Hero() {
           initial={{ opacity: 0, x: -60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl lg:text-7xl font-black leading-tight mb-6"
+          className="text-5xl lg:text-5xl font-black leading-tight mb-6"
         >
           Hello, I am <br />
           <span className="gradient-text">Umayer Ahmad</span>
@@ -55,7 +55,7 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
           className="text-xl lg:text-2xl text-slate-400 mb-6 font-mono"
         >
-          &lt; Transforming Ideas into Reality /&gt;
+          &lt; Frontend Developer /&gt;
         </motion.p>
 
         <motion.p
