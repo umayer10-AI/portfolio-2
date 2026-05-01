@@ -62,7 +62,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -55%);
     width: 300px;
     height: 300px;
     pointer-events: none;
@@ -87,14 +87,21 @@
   }
 
   /* Rotation animation */
-  @keyframes orbit-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  .orbit-item span {
+  transform:
+    rotate(calc(360deg / var(--total) * var(--index)))
+    translateY(-140px) /* mobile */
+    rotate(calc(-360deg / var(--total) * var(--index)));
+}
+
+@media (min-width: 1024px) {
+  .orbit-item span {
+    transform:
+      rotate(calc(360deg / var(--total) * var(--index)))
+      translateY(-190px) /* desktop (bigger circle) */
+      rotate(calc(-360deg / var(--total) * var(--index)));
   }
+}
 
   /* Optional hover pause (🔥 premium feel) */
   .orbit-container:hover .orbit-item {

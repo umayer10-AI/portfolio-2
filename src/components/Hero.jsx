@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { Download } from 'lucide-react';
 import Image from 'next/image';
@@ -118,8 +118,8 @@ export default function Hero() {
           </div>
 
           {/* OPTIONAL RINGS */}
-          <div className="absolute inset-0 border border-white/10 rounded-full scale-110"></div>
-          <div className="absolute inset-0 border border-white/5 rounded-full scale-125 hidden lg:block"></div>
+          <div className="absolute inset-0 border border-white/20 rounded-full scale-90"></div>
+          <div className="absolute inset-0 border border-white/5 rounded-full scale-110 hidden lg:block"></div>
 
         </div>
       </div>
