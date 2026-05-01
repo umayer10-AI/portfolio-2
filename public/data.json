@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "QurbaniHat",
+    "description": "QurbaniHat is a modern online marketplace for buying and selling sacrificial animals with ease and trust.It connects buyers and sellers, ensuring a smooth, transparent, and convenient Qurbani shopping experience.",
+    "tags": ["Next.js", "JavaScript", "MongoDb"],
+    "image": "https://images.unsplash.com/photo-1610359797625-64f9f083cf99?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxjb3d8ZW58MHx8MHx8fDA%3D",
+    "gitLink": "https://github.com/umayer10-AI/Assignment-8",
+    "liveLink": "https://assignment-8-virid.vercel.app",
+    "features": [
+                "Real-time animal bidding system",
+                "Secure payment gateway integration",
+                "Seller verification process",
+                "Dynamic search and filtering"
+            ]
+  },
+  {
+    "id": 2,
+    "title": "Dragon News",
+    "description": "Dragon News is a modern news platform that delivers fast, reliable, and up-to-date news from around the world.It provides a clean user experience with categorized content for easy browsing of latest headlines and stories.",
+    "tags": ["Next.js", "JavaScript", "MongoDb"],
+    "image": "https://plus.unsplash.com/premium_photo-1688561384438-bfa9273e2c00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D",
+    "gitLink": "https://github.com/umayer10-AI/next-p-1",
+    "liveLink": "https://next-p-1-delta.vercel.app",
+    "features": [
+                "Real-time animal bidding system",
+                "Secure payment gateway integration",
+                "Seller verification process",
+                "Dynamic search and filtering"
+            ]
+  },
+  {
+    "id": 3,
+    "title": "KeenKeeper",
+    "description": "KeenKeeper transforms how you track relationships. Moving away from cluttered social media, it provides a clean, Vercel-inspired interface to log interactions, view analytics, and maintain a timeline of your social life. This project is a testament to modern software engineering, focusing on performance, clean code, and a premium user experience.",
+    "tags": ["Next.js", "JavaScript", "MongoDb"],
+    "image": "https://pbs.twimg.com/media/HGbWzapbwAAmYfj?format=jpg&name=900x900",
+    "gitLink": "https://github.com/umayer10-AI/Assignment-7",
+    "liveLink": "https://assignment-7-iota.vercel.app",
+    "features": [
+                "Real-time animal bidding system",
+                "Secure payment gateway integration",
+                "Seller verification process",
+                "Dynamic search and filtering"
+            ]
+  }
+]
