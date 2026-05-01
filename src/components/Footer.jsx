@@ -33,11 +33,11 @@ export default function Footer() {
             A passionate Frontend Developer dedicated to building modern, responsive, and user-friendly web applications with clean UI and smooth user experiences.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><GithubIcon /></a>
-            <a href="#" className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><LinkedinIcon /></a>
-            <a href="#" className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><FacebookIcon /></a>
-            <a href="#" className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><TwitterIcon /></a>
-            <a href="#" className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><WhatsappIcon /></a>
+            <a href="https://github.com/umayer10-AI" target='blank' className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><GithubIcon /></a>
+            <a href="https://www.linkedin.com/in/umayer-ahmad/" target='blank' className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><LinkedinIcon /></a>
+            <a href="https://web.facebook.com/md.umayer.545" target='blank' className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><FacebookIcon /></a>
+            <a href="https://x.com/Umayer721564" target='blank' className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><TwitterIcon /></a>
+
           </div>
         </div>
 
