@@ -77,21 +77,23 @@
     animation: orbit-spin calc(12s + var(--index) * 2s) linear infinite;
   }
 
-  /* Positioning items in circle */
+  @keyframes float {
+  0%, 100% { 
+    /* Positioning logic + floating offset */
+    translate: 0 -5px; 
+  }
+  50% { 
+    translate: 0 5px; 
+  }
+}
+
   .orbit-item span {
     display: inline-block;
-    transform:
-      rotate(calc(360deg / var(--total) * var(--index)))
-      translateY(-150px)
-      rotate(calc(-360deg / var(--total) * var(--index)));
-  }
-
-  /* Rotation animation */
-  .orbit-item span {
   transform:
     rotate(calc(360deg / var(--total) * var(--index)))
     translateY(-140px) /* mobile */
     rotate(calc(-360deg / var(--total) * var(--index)));
+  animation: float 2.5s ease-in-out infinite;
 }
 
 @media (min-width: 1024px) {
@@ -103,7 +105,6 @@
   }
 }
 
-  /* Optional hover pause (🔥 premium feel) */
   .orbit-container:hover .orbit-item {
     animation-play-state: paused;
   }

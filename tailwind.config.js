@@ -18,11 +18,16 @@ module.exports = {
       },
       animation: {
         'orbit': 'orbitRotate var(--duration, 20s) linear infinite',
+        'float-slow': 'float 3s ease-in-out infinite',
       },
       keyframes: {
         orbitRotate: {
           '0%': { transform: 'rotate(calc(360deg / var(--total) * var(--index)))' },
           '100%': { transform: 'rotate(calc(360deg / var(--total) * var(--index) + 360deg))' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(-16px)' },
+          '50%': { transform: 'translateY(-4px)' },
         }
       }
     },
