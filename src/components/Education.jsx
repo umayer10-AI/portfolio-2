@@ -3,17 +3,17 @@ import { GraduationCap } from 'lucide-react';
 export default function Education() {
   const education = [
     {
-      title: 'Diploma in Computer Science',
-      institution: 'NATIONAL POLYTECHNIC INSTITUTE',
-      period: '2022 – Present',
+      title: 'Bsc. in Computer Science and Engineering',
+      institution: 'SONARGAON UNIVERSITY',
+      period: '2025 – Present',
       description: 'Focused on computer science fundamentals including programming, data structures, database systems, and modern software development practices.',
       align: 'right'
     },
     {
-      title: 'Complete Web Development',
+      title: 'Complete Frontend Development',
       institution: 'PROGRAMMING HERO',
-      period: '2025 – Completed',
-      description: 'Practical experience in building real-world projects using HTML, Tailwind CSS, JavaScript, React, REST APIs, and backend fundamentals with strong focus on clean UI/UX.',
+      period: '2026 – Completed',
+      description: 'Practical experience in building real-world projects using HTML, Tailwind CSS, JavaScript, React, NextJs, and REST APIs, with a strong focus on clean UI/UX and performance.',
       align: 'left'
     }
   ];
@@ -31,10 +31,12 @@ export default function Education() {
               <GraduationCap size={28} color="#fff" />
             </div>
             
-            <div className={`md:w-[45%] w-full ${item.align === 'right' ? 'md:text-left' : 'md:text-right'} text-left`}>
-              <span className="inline-block bg-accent-cyan/10 text-accent-cyan px-5 py-1.5 rounded-full text-[0.85rem] font-bold mb-4 border border-accent-cyan">
+            <div className={`md:w-[45%] w-full text-left`}>
+              <div className={`flex ${item.align === 'left' ? 'md:justify-end' : 'md:justify-start'}`}>
+                <span className="inline-block bg-accent-cyan/10 text-accent-cyan px-5 py-1.5 rounded-full text-[0.85rem] font-bold mb-4 border border-accent-cyan">
                 {item.period}
               </span>
+              </div>
               <div className="glass-card p-8 transition-transform hover:scale-[1.02]">
                 <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
                 <h4 className="text-accent-cyan text-[0.9rem] font-bold mb-4 uppercase tracking-widest">{item.institution}</h4>
