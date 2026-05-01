@@ -27,10 +27,10 @@ export default function Footer() {
         {/* Logo and Description */}
         <div className="flex flex-col gap-6">
           <div className="text-2xl font-extrabold tracking-tighter">
-            <span className="gradient-text">&lt;AMDAD.ISLAM/&gt;</span>
+            <span className="gradient-text">&lt;UMAYER.AHMAD/&gt;</span>
           </div>
           <p className="text-slate-400 leading-relaxed max-w-[350px]">
-            A passionate Full Stack Developer dedicated to building high-quality web applications with modern technologies and exceptional user experiences.
+            A passionate Frontend Developer dedicated to building modern, responsive, and user-friendly web applications with clean UI and smooth user experiences.
           </p>
           <div className="flex gap-4">
             <a href="#" className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><GithubIcon /></a>
@@ -62,13 +62,13 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-lg bg-accent-cyan/10 flex items-center justify-center text-accent-cyan">
                 <Mail size={20} />
               </div>
-              <span>amdadislam733@gmail.com</span>
+              <span>mdumayer10@gmail.com</span>
             </div>
             <div className="flex items-center gap-4 text-slate-400">
               <div className="w-10 h-10 rounded-lg bg-accent-cyan/10 flex items-center justify-center text-accent-cyan">
                 <Phone size={20} />
               </div>
-              <span>+880 1540-138209</span>
+              <span>+880 1883642841</span>
             </div>
             <div className="flex items-center gap-4 text-slate-400">
               <div className="w-10 h-10 rounded-lg bg-accent-cyan/10 flex items-center justify-center text-accent-cyan">
@@ -81,7 +81,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-[1200px] mx-auto pt-10 border-t border-white/5 flex justify-between items-center text-sm text-slate-500">
-        <p>© {new Date().getFullYear()} <span className="text-accent-cyan font-bold">AMDAD.ISLAM</span></p>
+        <p>© {new Date().getFullYear()} <span className="text-accent-cyan font-bold">UMAYER.AHMAD</span></p>
       </div>
     </footer>
   );

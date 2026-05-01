@@ -73,9 +73,9 @@ export default function Hero() {
           </a>
 
           <div className="flex gap-5 text-slate-400">
-            <a href="#"><GithubIcon /></a>
-            <a href="#"><LinkedinIcon /></a>
-            <a href="#"><TwitterIcon /></a>
+            <a href="https://github.com/umayer10-AI" target='blank'><GithubIcon /></a>
+            <a href="https://www.linkedin.com/in/umayer-ahmad/" target='blank'><LinkedinIcon /></a>
+            <a href="https://x.com/Umayer721564" target='blank'><TwitterIcon /></a>
           </div>
         </div>
       </div>
