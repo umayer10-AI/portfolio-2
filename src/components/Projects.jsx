@@ -7,22 +7,28 @@ const GithubIcon = () => (
 export default function Projects() {
   const projects = [
     {
-      title: 'Tech-Store',
-      description: 'Tech-Store is a premium, high-fidelity e-commerce platform designed for modern consumers who value both innovation and elegance.',
-      tags: ['Next.js', 'TypeScript', 'Mongoose'],
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1632&auto=format&fit=crop',
+      title: 'QurbaniHat',
+      description: 'QurbaniHat is a modern online marketplace for buying and selling sacrificial animals with ease and trust.It connects buyers and sellers, ensuring a smooth, transparent, and convenient Qurbani shopping experience.',
+      tags: ['Next.js', 'JavaScript', 'MongoDb'],
+      image: 'https://images.unsplash.com/photo-1610359797625-64f9f083cf99?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxjb3d8ZW58MHx8MHx8fDA%3D',
+      gitLink: 'https://github.com/umayer10-AI/Assignment-8',
+      liveLink: 'https://assignment-8-virid.vercel.app',
     },
     {
-      title: 'TicketBari Booking Platform',
-      description: 'The primary goal of TicketBari is to deliver a production-ready, real-world ticket booking system that demonstrates strong full-stack skills.',
-      tags: ['React.js', 'Express.js', 'MongoDB'],
-      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1469&auto=format&fit=crop',
+      title: 'Dragon News',
+      description: 'Dragon News is a modern news platform that delivers fast, reliable, and up-to-date news from around the world.It provides a clean user experience with categorized content for easy browsing of latest headlines and stories.',
+      tags: ['Next.js', 'JavaScript', 'MongoDb'],
+      image: 'https://plus.unsplash.com/premium_photo-1688561384438-bfa9273e2c00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+      gitLink: 'https://github.com/umayer10-AI/next-p-1',
+      liveLink: 'https://next-p-1-delta.vercel.app',
     },
     {
-      title: 'Event Management',
-      description: 'A modern and fully functional Event Management platform where users can explore events, view detailed schedules, and purchase tickets securely.',
-      tags: ['Next.js', 'Express.js', 'MongoDB'],
-      image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?q=80&w=1470&auto=format&fit=crop',
+      title: 'KeenKeeper',
+      description: 'KeenKeeper transforms how you track relationships. Moving away from cluttered social media, it provides a clean, Vercel-inspired interface to log interactions, view analytics, and maintain a timeline of your social life. This project is a testament to modern software engineering, focusing on performance, clean code, and a premium user experience.',
+      tags: ['Next.js', 'JavaScript', 'MongoDb'],
+      image: 'https://pbs.twimg.com/media/HGbWzapbwAAmYfj?format=jpg&name=900x900',
+      gitLink: 'https://github.com/umayer10-AI/Assignment-7',
+      liveLink: 'https://assignment-7-iota.vercel.app',
     }
   ];
 
@@ -47,8 +53,8 @@ export default function Projects() {
               <div className="flex justify-between items-center mt-4">
                 <button className="btn-primary !px-5 !py-2 text-sm">View Details</button>
                 <div className="flex gap-6">
-                  <a href="#" className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-white transition-colors">Live <ExternalLink size={16} /></a>
-                  <a href="#" className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-white transition-colors">Code <GithubIcon /></a>
+                  <a href={project.liveLink} target='blank' className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-white transition-colors">Live <ExternalLink size={16} /></a>
+                  <a href={project.gitLink} target='blank' className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-white transition-colors">Code <GithubIcon /></a>
                 </div>
               </div>
             </div>
