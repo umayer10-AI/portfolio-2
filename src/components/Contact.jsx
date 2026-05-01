@@ -36,7 +36,7 @@ export default function Contact() {
             </div>
             <div>
               <p className="font-bold text-slate-200">Email</p>
-              <p className="text-slate-400">amdadislam733@gmail.com</p>
+              <p className="text-slate-400">mdumayer10@gmail.com</p>
             </div>
           </div>
           
@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
             <div>
               <p className="font-bold text-slate-200">Phone</p>
-              <p className="text-slate-400">+880 1540-138209</p>
+              <p className="text-slate-400">+880 1883642841</p>
             </div>
           </div>
           
@@ -63,11 +63,10 @@ export default function Contact() {
           <div className="mt-8">
             <h3 className="text-2xl font-bold text-accent-cyan mb-8">Follow Me</h3>
             <div className="flex gap-4">
-              <a href="#" className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><GithubIcon /></a>
-              <a href="#" className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><LinkedinIcon /></a>
-              <a href="#" className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><FacebookIcon /></a>
-              <a href="#" className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><TwitterIcon /></a>
-              <a href="#" className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><WhatsappIcon /></a>
+              <a href="https://github.com/umayer10-AI" target='blank' className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><GithubIcon /></a>
+              <a href="https://www.linkedin.com/in/umayer-ahmad/" target='blank' className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><LinkedinIcon /></a>
+              <a href="https://web.facebook.com/md.umayer.545" target='blank' className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><FacebookIcon /></a>
+              <a href="https://x.com/Umayer721564" target='blank' className="w-12 h-12 rounded-xl bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan hover:border-accent-cyan transition-all"><TwitterIcon /></a>
             </div>
           </div>
         </div>
