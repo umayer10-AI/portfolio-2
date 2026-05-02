@@ -19,7 +19,7 @@ export default function Education() {
   ];
 
   return (
-    <section id="education" className="py-32 px-8 max-w-[1200px] mx-auto text-center">
+    <section id="education" className="py-32 px-8 max-w-300 mx-auto text-center">
       <h2 className="text-4xl lg:text-6xl font-bold mb-20">Education & <span className="gradient-text">Learning</span></h2>
       
       <div className="relative max-w-[900px] mx-auto py-8">
