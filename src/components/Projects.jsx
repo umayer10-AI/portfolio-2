@@ -16,7 +16,7 @@ export default function Projects() {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 text-left">
         {projects.map((project, index) => (
           <div key={index} className="glass-card overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-accent-cyan group">
-            <div className="w-full h-[220px] overflow-hidden">
+            <div className="w-full h-55 overflow-hidden">
               <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
             </div>
             <div className="p-8 flex flex-col gap-5">
