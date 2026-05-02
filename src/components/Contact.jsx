@@ -22,7 +22,7 @@ const WhatsappIcon = () => (
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-32 px-8 max-w-[1200px] mx-auto">
+    <section id="contact" className="py-32 px-8 max-w-300 mx-auto">
       <h2 className="text-4xl lg:text-6xl text-center font-bold mb-20 text-blue-400">Get In <span className="text-blue-500">Touch</span></h2>
       
       <div className="grid lg:grid-cols-2 gap-16">
