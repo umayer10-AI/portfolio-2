@@ -9,7 +9,6 @@
   --background-image-accent-gradient: linear-gradient(135deg, #22d3ee, #3b82f6);
 }
 
-/* ================= BASE ================= */
 @layer base {
   :root {
     --bg-dark: #020617;
