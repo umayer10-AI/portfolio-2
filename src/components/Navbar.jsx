@@ -16,7 +16,6 @@ export default function Navbar() {
         <li><a href="#tools" className="text-sm font-medium text-slate-400 hover:text-white transition-colors">Tools</a></li>
       </ul>
 
-
       <a href="#contact" className="btn-primary">
         Contact Me <MessageSquare size={15} />
       </a>
