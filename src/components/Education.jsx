@@ -22,7 +22,7 @@ export default function Education() {
     <section id="education" className="py-32 px-8 max-w-300 mx-auto text-center">
       <h2 className="text-4xl lg:text-6xl font-bold mb-20">Education & <span className="gradient-text">Learning</span></h2>
       
-      <div className="relative max-w-[900px] mx-auto py-8">
+      <div className="relative max-w-225 mx-auto py-8">
         <div className="absolute top-0 bottom-0 left-1/2 w-[2px] bg-accent-blue -translate-x-1/2 hidden md:block"></div>
         
         {education.map((item, index) => (
