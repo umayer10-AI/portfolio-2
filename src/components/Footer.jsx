@@ -54,7 +54,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Let's Connect */}
+        
         <div>
           <h3 className="text-xl font-bold text-slate-100 mb-8">Let's Connect</h3>
           <div className="flex flex-col gap-6">
