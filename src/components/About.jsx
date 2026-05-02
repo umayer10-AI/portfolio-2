@@ -12,7 +12,7 @@ export default function About() {
             alt="Programming Illustration" 
             width={500} 
             height={400}
-            className="w-full h-auto max-w-[500px]"
+            className="w-full h-auto max-w-125"
           />
         </div>
         
