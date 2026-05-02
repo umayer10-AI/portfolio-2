@@ -19,6 +19,7 @@ export default function SmoothScroll({ children }) {
     requestAnimationFrame(raf);
 
     return () => lenis.destroy();
+    
   }, []);
 
   return children;
