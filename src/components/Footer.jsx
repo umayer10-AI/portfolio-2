@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-[1200px] mx-auto pt-10 border-t border-white/5 flex justify-between items-center text-sm text-slate-500">
+      <div className="max-w-300 mx-auto pt-10 border-t border-white/5 flex justify-between items-center text-sm text-slate-500">
         <p>© {new Date().getFullYear()} <span className="text-accent-cyan font-bold">UMAYER.AHMAD</span></p>
       </div>
     </footer>
