@@ -93,7 +93,7 @@
   .orbit-item span {
     transform:
       rotate(calc(360deg / var(--total) * var(--index)))
-      translateY(-190px) /* desktop (bigger circle) */
+      translateY(-190px) 
       rotate(calc(-360deg / var(--total) * var(--index)));
   }
 }
@@ -103,7 +103,6 @@
   }
 }
 
-/* ================= SCROLLBAR ================= */
 ::-webkit-scrollbar {
   width: 10px;
 }
