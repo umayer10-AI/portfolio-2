@@ -41,6 +41,7 @@ export default function Skills() {
             onClick={() => setActiveTab(tab)}
           >
             {tab.charAt(0).toUpperCase() + tab.slice(1)}
+            
           </button>
         ))}
       </div>
