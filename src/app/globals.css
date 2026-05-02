@@ -73,7 +73,6 @@
 
   @keyframes float {
   0%, 100% { 
-    /* Positioning logic + floating offset */
     translate: 0 -5px; 
   }
   50% { 
