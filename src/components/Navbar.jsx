@@ -2,7 +2,7 @@ import { MessageSquare } from 'lucide-react';
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-[1200px] h-[70px] bg-bg-card/70 backdrop-blur-xl border border-white/10 rounded-full flex items-center justify-between px-8 z-[1000] shadow-2xl shadow-black/30">
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-300 h-[70px] bg-bg-card/70 backdrop-blur-xl border border-white/10 rounded-full flex items-center justify-between px-8 z-[1000] shadow-2xl shadow-black/30">
       <div className="text-xl font-extrabold tracking-tighter">
         <span className="gradient-text">&lt;Umayer.Ahmad/&gt;</span>
       </div>
@@ -16,7 +16,7 @@ export default function Navbar() {
         <li><a href="#tools" className="text-sm font-medium text-slate-400 hover:text-white transition-colors">Tools</a></li>
       </ul>
 
-      
+
       <a href="#contact" className="btn-primary">
         Contact Me <MessageSquare size={15} />
       </a>
