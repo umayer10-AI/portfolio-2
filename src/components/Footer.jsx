@@ -24,7 +24,7 @@ export default function Footer() {
   return (
     <footer className="bg-bg-card/30 pt-20 pb-10 px-8 border-t border-white/5">
       <div className="max-w-300 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-20">
-        {/* Logo and Description */}
+        
         <div className="flex flex-col gap-6">
           <div className="text-2xl font-extrabold tracking-tighter">
             <span className="gradient-text">&lt;UMAYER.AHMAD/&gt;</span>
