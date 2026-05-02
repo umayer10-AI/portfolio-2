@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section id="about" className="py-32 px-8 max-w-[1200px] mx-auto">
+    <section id="about" className="py-32 px-8 max-w-300 mx-auto">
       <h2 className="text-4xl lg:text-6xl text-center font-bold mb-20">About <span className="gradient-text">Me</span></h2>
       
       <div className="grid lg:grid-cols-2 gap-16 items-center">
