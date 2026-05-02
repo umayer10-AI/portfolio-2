@@ -63,7 +63,6 @@
     pointer-events: none;
   }
 
-  /* Each rotating item */
   .orbit-item {
     position: absolute;
     top: 50%;
