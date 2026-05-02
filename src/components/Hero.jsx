@@ -3,6 +3,7 @@
 import { Download } from 'lucide-react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const GithubIcon = () => (
   <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -68,9 +69,9 @@ export default function Hero() {
         </motion.p>
 
         <div className="flex flex-wrap items-center gap-6">
-          <a href="/resume.pdf" className="btn-primary">
+          <Link href="https://drive.google.com/file/d/1-RreqCKn6I8YHNrU1rfAg0Hdyh0xN130/view?usp=sharing" className="btn-primary">
             Download Resume <Download size={18} />
-          </a>
+          </Link>
 
           <div className="flex gap-5 text-slate-400">
             <a href="https://github.com/umayer10-AI" target='blank'><GithubIcon /></a>
