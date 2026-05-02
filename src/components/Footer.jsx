@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="text-2xl font-extrabold tracking-tighter">
             <span className="gradient-text">&lt;UMAYER.AHMAD/&gt;</span>
           </div>
-          <p className="text-slate-400 leading-relaxed max-w-[350px]">
+          <p className="text-slate-400 leading-relaxed max-w-87">
             A passionate Frontend Developer dedicated to building modern, responsive, and user-friendly web applications with clean UI and smooth user experiences.
           </p>
           <div className="flex gap-4">
