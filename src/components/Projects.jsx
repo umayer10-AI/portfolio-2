@@ -10,7 +10,7 @@ export default function Projects() {
   const projects = data
 
   return (
-    <section id="projects" className="py-32 px-8 max-w-[1200px] mx-auto text-center">
+    <section id="projects" className="py-32 px-8 max-w-300 mx-auto text-center">
       <h2 className="text-4xl lg:text-6xl font-bold mb-20">My Projects</h2>
       
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 text-left">
