@@ -26,7 +26,7 @@ export default function Contact() {
       <h2 className="text-4xl lg:text-6xl text-center font-bold mb-20 text-blue-400">Get In <span className="text-blue-500">Touch</span></h2>
       
       <div className="grid lg:grid-cols-2 gap-16">
-        {/* Left Side: Contact Information */}
+        
         <div className="flex flex-col gap-8">
           <h3 className="text-2xl font-bold text-slate-200 mb-4">Contact Information</h3>
           
