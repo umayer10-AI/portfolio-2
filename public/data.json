@@ -60,7 +60,7 @@
             ]
   },
   {
-    "id": 1,
+    "id": 5,
     "title": "QurbaniHat",
     "description": "QurbaniHat is a modern online marketplace for buying and selling sacrificial animals with ease and trust.It connects buyers and sellers, ensuring a smooth, transparent, and convenient Qurbani shopping experience.",
     "tags": ["Next.js", "JavaScript", "MongoDb"],
@@ -74,13 +74,13 @@
             ]
   },
   {
-    "id": 2,
-    "title": "Dragon News",
-    "description": "Dragon News is a modern news platform that delivers fast, reliable, and up-to-date news from around the world.It provides a clean user experience with categorized content for easy browsing of latest headlines and stories.",
+    "id": 6,
+    "title": "pixgen",
+    "description": "Pixen is a modern full-stack image sharing platform where users can upload, explore, and manage high-quality images. The application offers a clean, responsive interface with secure authentication, making it easy to share creative work and discover images from other users.",
     "tags": ["Next.js", "JavaScript", "MongoDb"],
-    "image": "https://plus.unsplash.com/premium_photo-1688561384438-bfa9273e2c00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D",
-    "gitLink": "https://github.com/umayer10-AI/next-p-1",
-    "liveLink": "https://next-p-1-delta.vercel.app",
+    "image": "https://res.cloudinary.com/dv0depp9i/image/upload/v1745155881/pixigenie/pixigenie-logo.webp",
+    "gitLink": "https://github.com/umayer10-AI/My-Pixgen",
+    "liveLink": "https://my-pixgen.vercel.app",
     "features": [
                 "Real-time News Updates",
                 "Category-based Browsing",
