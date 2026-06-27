@@ -1,6 +1,66 @@
 [
   {
     "id": 1,
+    "title": "RecipeHub",
+    "description": "RecipeHub is a full-stack recipe sharing platform where users can discover, create, save, and manage recipes. It provides a clean, responsive interface with secure authentication and personalized dashboards, making it easy for cooking enthusiasts to share their favorite recipes and explore dishes from others.",
+    "tags": ["Next.js", "JavaScript", "MongoDb", "Expressjs", "Nodejs"],
+    "image": "https://plus.unsplash.com/premium_photo-1677619680553-732e8e153db2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "gitLink": "https://github.com/umayer10-AI/RecipeHub-client",
+    "liveLink": "https://recipe-hub-client-chi.vercel.app",
+    "features": [
+                "🔐 Secure Authentication & Authorization",
+                "🍽️ Recipe Management (CRUD)",
+                "❤️ Save & Favorite Recipes",
+                "🎨 Modern & Responsive UI"
+            ]
+  },
+  {
+    "id": 2,
+    "title": "DocAppoint",
+    "description": "Built a full-stack MERN-based doctor appointment booking platform with secure JWT authentication and protected routes. Developed doctor listing, doctor details, appointment booking, and search functionality for seamless user experience. Implemented user dashboard features allowing authenticated users to manage, update, and cancel appointments. Designed a fully responsive interface optimized for desktop, tablet, and mobile devices.",
+    "tags": ["Next.js", "JavaScript", "MongoDb", "Expressjs", "Nodejs"],
+    "image": "https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.webp?a=1&b=1&s=612x612&w=0&k=20&c=NjsxMl8GGuQhGh5Pf1DMndLw4UoS2-lTLJuLpEeZvK8=",
+    "gitLink": "https://github.com/umayer10-AI/Assignment-9-client",
+    "liveLink": "https://assignment-9-client-three.vercel.app",
+    "features": [
+                "🔐 Secure Authentication & Authorization",
+                "🍽️ Recipe Management (CRUD)",
+                "❤️ Save & Favorite Doctors",
+                "🎨 Modern & Responsive UI"
+            ]
+  },
+  {
+    "id": 3,
+    "title": "PetLix",
+    "description": "PetLix is a modern full-stack pet adoption platform that connects pets in need with loving families. Users can explore available pets, view detailed information, and submit adoption requests through a clean, responsive, and user-friendly interface. The platform streamlines the adoption process while promoting responsible pet ownership.",
+    "tags": ["Next.js", "JavaScript", "MongoDb", "Expressjs", "Nodejs", "TypeScript"],
+    "image": "https://images.unsplash.com/photo-1637069810813-3aea5273dc7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODYyfHxjYXR8ZW58MHx8MHx8fDA%3D",
+    "gitLink": "https://github.com/umayer10-AI/petlix_client",
+    "liveLink": "https://petlix-client.vercel.app",
+    "features": [
+                "🐶 Browse & Search Pets",
+                "❤️ Pet Adoption Request",
+                "👤 Secure User Authentication",
+                "📱 Responsive & Modern UI"
+            ]
+  },
+  {
+    "id": 4,
+    "title": "E-Commerce",
+    "description": "E-Commerce is a modern full-stack online shopping platform where users can browse products, add items to their cart, and place orders through a secure and user-friendly interface. The application provides a seamless shopping experience with responsive design, secure authentication, and efficient product management.",
+    "tags": ["Next.js", "JavaScript"],
+    "image": "https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww",
+    "gitLink": "https://github.com/umayer10-AI/first-E-Commerce",
+    "liveLink": "https://first-e-commerce-mocha.vercel.app",
+    "features": [
+                "🛍️ Product Browsing & Search",
+                "🛒 Shopping Cart & Checkout",
+                "🔐 Secure Authentication",
+                "📱 Responsive & Modern UI"
+            ]
+  },
+  {
+    "id": 1,
     "title": "QurbaniHat",
     "description": "QurbaniHat is a modern online marketplace for buying and selling sacrificial animals with ease and trust.It connects buyers and sellers, ensuring a smooth, transparent, and convenient Qurbani shopping experience.",
     "tags": ["Next.js", "JavaScript", "MongoDb"],
@@ -26,51 +86,6 @@
                 "Category-based Browsing",
                 "SResponsive Design",
                 "Clean & User-friendly UI"
-            ]
-  },
-  {
-    "id": 3,
-    "title": "KeenKeeper",
-    "description": "KeenKeeper transforms how you track relationships. Moving away from cluttered social media, it provides a clean, Vercel-inspired interface to log interactions, view analytics, and maintain a timeline of your social life. This project is a testament to modern software engineering, focusing on performance, clean code, and a premium user experience.",
-    "tags": ["Next.js", "JavaScript", "MongoDb"],
-    "image": "https://pbs.twimg.com/media/HGbWzapbwAAmYfj?format=jpg&name=900x900",
-    "gitLink": "https://github.com/umayer10-AI/Assignment-7",
-    "liveLink": "https://assignment-7-iota.vercel.app",
-    "features": [
-                "Secure Data Management",
-                "User Authentication System",
-                "Clean & Organized UI",
-                "Real-time Sync / Updates"
-            ]
-  },
-  {
-    "id": 4,
-    "title": "RecipeHub",
-    "description": "RecipeHub is a full-stack recipe sharing platform where users can discover, create, save, and manage recipes. It provides a clean, responsive interface with secure authentication and personalized dashboards, making it easy for cooking enthusiasts to share their favorite recipes and explore dishes from others.",
-    "tags": ["Next.js", "JavaScript", "MongoDb", "Expressjs", "Nodejs"],
-    "image": "https://plus.unsplash.com/premium_photo-1677619680553-732e8e153db2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "gitLink": "https://github.com/umayer10-AI/RecipeHub-client",
-    "liveLink": "https://recipe-hub-client-chi.vercel.app",
-    "features": [
-                "🔐 Secure Authentication & Authorization",
-                "🍽️ Recipe Management (CRUD)",
-                "❤️ Save & Favorite Recipes",
-                "🎨 Modern & Responsive UI"
-            ]
-  },
-  {
-    "id": 5,
-    "title": "DocAppoint",
-    "description": "Built a full-stack MERN-based doctor appointment booking platform with secure JWT authentication and protected routes. Developed doctor listing, doctor details, appointment booking, and search functionality for seamless user experience. Implemented user dashboard features allowing authenticated users to manage, update, and cancel appointments. Designed a fully responsive interface optimized for desktop, tablet, and mobile devices.",
-    "tags": ["Next.js", "JavaScript", "MongoDb", "Expressjs", "Nodejs"],
-    "image": "https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.webp?a=1&b=1&s=612x612&w=0&k=20&c=NjsxMl8GGuQhGh5Pf1DMndLw4UoS2-lTLJuLpEeZvK8=",
-    "gitLink": "https://github.com/umayer10-AI/Assignment-9-client",
-    "liveLink": "https://assignment-9-client-three.vercel.app",
-    "features": [
-                "🔐 Secure Authentication & Authorization",
-                "🍽️ Recipe Management (CRUD)",
-                "❤️ Save & Favorite Doctors",
-                "🎨 Modern & Responsive UI"
             ]
   }
 ]

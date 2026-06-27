@@ -21,9 +21,9 @@ export default function Projects() {
             </div>
             <div className="p-8 flex flex-col gap-5">
               <h3 className="text-2xl font-bold">{project.title}</h3>
-              <p className="text-slate-400 text-[0.95rem] leading-relaxed h-8 line-clamp-3">{project.description}</p>
+              <p className="text-slate-400 text-[0.95rem] leading-relaxed line-clamp-1">{project.description}</p>
               <div className="flex flex-wrap gap-3">
-                {project.tags.map(tag => (
+                {project.tags.slice(0,3).map(tag => (
                   <span key={tag} className="bg-accent-cyan/10 text-accent-cyan px-3 py-1 rounded-full text-xs font-bold border border-accent-cyan/20">{tag}</span>
                 ))}
               </div>
