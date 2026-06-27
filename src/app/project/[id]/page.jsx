@@ -6,22 +6,6 @@ const ProjectDetails = async ({ params }) => {
 
     const { id } = await params;
     const project = data.find(v => v.id === Number(id))
-    // console.log(p)
-
-    // const project = {
-    //     title: "QurbaniHat",
-    //     description: "QurbaniHat is a modern online marketplace for buying and selling sacrificial animals with ease and transparency. It connects buyers with trusted sellers across the country.",
-    //     image: "https://images.unsplash.com/photo-1568794045709-edaad184e7da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGNvd3xlbnwwfHwwfHx8MA%3D%3D", // Tumi image source ekhane boshabe
-    //     technologies: ["Next.js", "JavaScript", "MongoDB", "Tailwind CSS"],
-    //     liveLink: "https://example.com",
-    //     codeLink: "https://github.com/example",
-    //     features: [
-    //         "Real-time animal bidding system",
-    //         "Secure payment gateway integration",
-    //         "Seller verification process",
-    //         "Dynamic search and filtering"
-    //     ]
-    // };
 
     return (
         <div className="min-h-screen bg-[#05070a] text-white p-6 md:p-12">
