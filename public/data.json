@@ -42,5 +42,35 @@
                 "Clean & Organized UI",
                 "Real-time Sync / Updates"
             ]
+  },
+  {
+    "id": 4,
+    "title": "RecipeHub",
+    "description": "RecipeHub is a full-stack recipe sharing platform where users can discover, create, save, and manage recipes. It provides a clean, responsive interface with secure authentication and personalized dashboards, making it easy for cooking enthusiasts to share their favorite recipes and explore dishes from others.",
+    "tags": ["Next.js", "JavaScript", "MongoDb", "Expressjs", "Nodejs"],
+    "image": "https://plus.unsplash.com/premium_photo-1677619680553-732e8e153db2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "gitLink": "https://github.com/umayer10-AI/RecipeHub-client",
+    "liveLink": "https://recipe-hub-client-chi.vercel.app",
+    "features": [
+                "🔐 Secure Authentication & Authorization",
+                "🍽️ Recipe Management (CRUD)",
+                "❤️ Save & Favorite Recipes",
+                "🎨 Modern & Responsive UI"
+            ]
+  },
+  {
+    "id": 5,
+    "title": "DocAppoint",
+    "description": "Built a full-stack MERN-based doctor appointment booking platform with secure JWT authentication and protected routes. Developed doctor listing, doctor details, appointment booking, and search functionality for seamless user experience. Implemented user dashboard features allowing authenticated users to manage, update, and cancel appointments. Designed a fully responsive interface optimized for desktop, tablet, and mobile devices.",
+    "tags": ["Next.js", "JavaScript", "MongoDb", "Expressjs", "Nodejs"],
+    "image": "https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.webp?a=1&b=1&s=612x612&w=0&k=20&c=NjsxMl8GGuQhGh5Pf1DMndLw4UoS2-lTLJuLpEeZvK8=",
+    "gitLink": "https://github.com/umayer10-AI/Assignment-9-client",
+    "liveLink": "https://assignment-9-client-three.vercel.app",
+    "features": [
+                "🔐 Secure Authentication & Authorization",
+                "🍽️ Recipe Management (CRUD)",
+                "❤️ Save & Favorite Doctors",
+                "🎨 Modern & Responsive UI"
+            ]
   }
 ]
