@@ -28,9 +28,9 @@ const TwitterIcon = () => (
 export default function Hero() {
   const techStack = [
     { name: 'Next.js', color: '#ffffff' },
-    // { name: 'Express.js', color: '#94a3b8' },
+    { name: 'Express.js', color: '#06b6d4' },
     { name: 'Node.js', color: '#22c55e' },
-    // { name: 'TypeScript', color: '#3b82f6' },
+    { name: 'TypeScript', color: '#3b82f6' },
     { name: 'MongoDB', color: '#10b981' },
     { name: 'React', color: '#06b6d4' },
   ];
@@ -56,7 +56,7 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
           className="text-xl lg:text-2xl text-slate-400 mb-6 font-mono"
         >
-          &lt; Frontend Developer /&gt;
+          &lt; MERN Stack Developer /&gt;
         </motion.p>
 
         <motion.p
