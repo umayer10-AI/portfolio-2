@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import RevealOnScroll from './RevealOnScroll';
 
 export default function Skills() {
   const [activeTab, setActiveTab] = useState('frontend');
@@ -31,27 +32,32 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-32 px-8 max-w-[1200px] mx-auto text-center">
-      <h2 className="text-4xl lg:text-6xl font-bold mb-12">Skills</h2>
+      <RevealOnScroll>
+        <h2 className="text-4xl lg:text-6xl font-bold mb-12">Skills</h2>
+      </RevealOnScroll>
       
-      <div className="inline-flex bg-bg-card p-2 rounded-2xl mb-16 border border-white/10">
-        {Object.keys(skillsData).map(tab => (
-          <button 
-            key={tab}
-            className={`px-8 py-3 rounded-xl font-bold transition-all duration-300 ${activeTab === tab ? 'bg-accent-gradient text-white shadow-lg shadow-cyan-500/30' : 'text-slate-400'}`}
-            onClick={() => setActiveTab(tab)}
-          >
-            {tab.charAt(0).toUpperCase() + tab.slice(1)}
-            
-          </button>
-        ))}
-      </div>
+      <RevealOnScroll delay={0.1}>
+        <div className="inline-flex bg-bg-card p-2 rounded-2xl mb-16 border border-white/10">
+          {Object.keys(skillsData).map(tab => (
+            <button 
+              key={tab}
+              className={`px-8 py-3 rounded-xl font-bold transition-all duration-300 ${activeTab === tab ? 'bg-accent-gradient text-white shadow-lg shadow-cyan-500/30' : 'text-slate-400'}`}
+              onClick={() => setActiveTab(tab)}
+            >
+              {tab.charAt(0).toUpperCase() + tab.slice(1)}
+            </button>
+          ))}
+        </div>
+      </RevealOnScroll>
       
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
-        {skillsData[activeTab].map(skill => (
-          <div key={skill.name} className="glass-card p-10 flex flex-col items-center gap-6 transition-all duration-300 hover:-translate-y-2 hover:border-accent-cyan hover:shadow-2xl hover:shadow-cyan-500/10 group">
-            <img src={skill.icon} alt={skill.name} className="w-16 h-16 drop-shadow-2xl group-hover:scale-110 transition-transform duration-300" />
-            <span className="font-bold text-lg">{skill.name}</span>
-          </div>
+        {skillsData[activeTab].map((skill, i) => (
+          <RevealOnScroll key={skill.name} delay={0.05 * i}>
+            <div className="glass-card p-10 flex flex-col items-center gap-6 transition-all duration-300 hover:-translate-y-2 hover:border-accent-cyan hover:shadow-2xl hover:shadow-cyan-500/10 group">
+              <img src={skill.icon} alt={skill.name} className="w-16 h-16 drop-shadow-2xl group-hover:scale-110 transition-transform duration-300" />
+              <span className="font-bold text-lg">{skill.name}</span>
+            </div>
+          </RevealOnScroll>
         ))}
       </div>
     </section>
