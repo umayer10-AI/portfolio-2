@@ -27,11 +27,11 @@ export default function Contact() {
       <div className="grid lg:grid-cols-2 gap-16">
         
         <div className="flex flex-col gap-8">
-          <RevealOnScroll delay={0.1}>
+          <RevealOnScroll>
             <h3 className="text-2xl font-bold text-slate-200 mb-4">Contact Information</h3>
           </RevealOnScroll>
           
-          <RevealOnScroll delay={0.15}>
+          <RevealOnScroll>
             <div className="glass-card p-6 flex items-center gap-6 group hover:border-accent-cyan transition-all">
               <div className="w-12 h-12 rounded-xl bg-accent-cyan/10 flex items-center justify-center text-accent-cyan">
                 <Mail size={24} />
@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
           </RevealOnScroll>
           
-          <RevealOnScroll delay={0.2}>
+          <RevealOnScroll>
             <div className="glass-card p-6 flex items-center gap-6 group hover:border-accent-cyan transition-all">
               <div className="w-12 h-12 rounded-xl bg-accent-cyan/10 flex items-center justify-center text-accent-cyan">
                 <Phone size={24} />
@@ -55,7 +55,7 @@ export default function Contact() {
             </div>
           </RevealOnScroll>
           
-          <RevealOnScroll delay={0.25}>
+          <RevealOnScroll>
             <div className="glass-card p-6 flex items-center gap-6 group hover:border-accent-cyan transition-all">
               <div className="w-12 h-12 rounded-xl bg-accent-cyan/10 flex items-center justify-center text-accent-cyan">
                 <MapPin size={24} />
@@ -67,7 +67,7 @@ export default function Contact() {
             </div>
           </RevealOnScroll>
           
-          <RevealOnScroll delay={0.3}>
+          <RevealOnScroll>
             <div className="mt-8">
               <h3 className="text-2xl font-bold text-accent-cyan mb-8">Follow Me</h3>
               <div className="flex gap-4">
