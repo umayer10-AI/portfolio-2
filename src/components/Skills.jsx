@@ -36,7 +36,7 @@ export default function Skills() {
         <h2 className="text-4xl lg:text-6xl font-bold mb-12">Skills</h2>
       </RevealOnScroll>
       
-      <RevealOnScroll delay={0.1}>
+      <RevealOnScroll>
         <div className="inline-flex bg-bg-card p-2 rounded-2xl mb-16 border border-white/10">
           {Object.keys(skillsData).map(tab => (
             <button 

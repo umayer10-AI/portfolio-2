@@ -44,7 +44,7 @@ export default function Projects() {
         ))}
       </div>
       
-      <RevealOnScroll delay={0.3}>
+      <RevealOnScroll>
         <div className="mt-20">
           <button className="bg-bg-card border border-white/10 text-white px-8 py-4 rounded-xl font-bold inline-flex items-center gap-2 hover:bg-slate-800 hover:border-accent-cyan transition-all">
             View All Projects <ChevronDown size={20} />
