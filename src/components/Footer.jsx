@@ -30,7 +30,7 @@ export default function Footer() {
             <span className="gradient-text">&lt;UMAYER.AHMAD/&gt;</span>
           </div>
           <p className="text-slate-400 leading-relaxed max-w-87">
-            A passionate Frontend Developer dedicated to building modern, responsive, and user-friendly web applications with clean UI and smooth user experiences.
+            A passionate MERN Stack Developer dedicated to building modern, responsive, and user-friendly web applications with clean UI and smooth user experiences.
           </p>
           <div className="flex gap-4">
             <a href="https://github.com/umayer10-AI" target='blank' className="w-10 h-10 rounded-lg bg-bg-card border border-white/10 flex items-center justify-center text-slate-400 hover:text-accent-cyan transition-all"><GithubIcon /></a>
