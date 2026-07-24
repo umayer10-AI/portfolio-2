@@ -11,7 +11,7 @@ export default function Education() {
       align: 'right'
     },
     {
-      title: 'Complete Frontend Development',
+      title: 'Complete MERN Stack Development',
       institution: 'PROGRAMMING HERO',
       period: '2026 – Completed',
       description: 'Practical experience in building real-world projects using HTML, Tailwind CSS, JavaScript, React, NextJs, and REST APIs, with a strong focus on clean UI/UX and performance.',

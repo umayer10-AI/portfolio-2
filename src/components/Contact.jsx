@@ -49,7 +49,7 @@ export default function Contact() {
                 <Phone size={24} />
               </div>
               <div>
-                <p className="font-bold text-slate-200">Phone</p>
+                <p className="font-bold text-slate-200">Phone <span className='text-slate-400'>(What's app)</span></p>
                 <p className="text-slate-400">+880 1883642841</p>
               </div>
             </div>

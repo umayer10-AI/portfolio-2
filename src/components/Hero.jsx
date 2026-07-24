@@ -69,7 +69,7 @@ export default function Hero() {
         </motion.p>
 
         <div className="flex flex-wrap items-center gap-6">
-          <a href="https://drive.google.com/file/d/1-RreqCKn6I8YHNrU1rfAg0Hdyh0xN130/view?usp=sharing" className="btn-primary">
+          <a target="_blank" href="https://drive.google.com/file/d/1-RreqCKn6I8YHNrU1rfAg0Hdyh0xN130/view?usp=sharing" className="btn-primary">
             Download Resume <Download size={18} />
           </a>
 

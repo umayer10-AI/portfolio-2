@@ -24,14 +24,17 @@ export default function About() {
         <RevealOnScroll delay={0.2}>
           <div className="glass-card lg:order-2 order-1">
             <div className="p-8 lg:p-12 flex flex-col gap-6">
-              <p className="text-slate-400 text-lg leading-relaxed">
-                I am a <span className="text-accent-cyan font-semibold">Front-End Developer</span> and a Computer Science and Engineering (CSE) student with a strong passion for building modern and interactive web applications. I enjoy working with technologies like React, Next.js, and Tailwind CSS to create clean, responsive, and user-friendly interfaces.
+              <p className="text-slate-400 text-md leading-relaxed">
+                I am a <span className="text-accent-cyan font-semibold">MERN Stack Developer</span> and my programming journey began with my Computer Science and Engineering (CSE) studies, where I developed a strong interest in web development. I started with HTML, CSS, and JavaScript, and gradually expanded my skills to the MERN Stack, including React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB, and Mongoose by building real-world projects.
               </p>
-              <p className="text-slate-400 text-lg leading-relaxed">
-                I regularly work on personal projects to improve my skills and gain real-world development experience. My focus is always on writing clean code, improving performance, and delivering smooth user experiences. I also enjoy learning new tools and exploring better ways to build scalable web applications.
+              <p className="text-slate-400 text-md leading-relaxed">
+                I enjoy building modern, responsive, and scalable web applications with clean user interfaces and smooth user experiences. I love turning ideas into real-world solutions and continuously improving application performance and code quality.
               </p>
-              <p className="text-slate-400 text-lg leading-relaxed">
-                My goal is to become a highly skilled software engineer and contribute to impactful projects in the tech industry. I am always eager to learn, grow, and challenge myself through new opportunities and real-world problem solving.
+              <p className="text-slate-400 text-md leading-relaxed">
+                Outside of programming, I enjoy exploring new technologies, watching tech videos, playing games, and spending time learning about the latest trends in software development. These activities keep me motivated and inspire me to improve my skills.
+              </p>
+              <p className="text-slate-400 text-md leading-relaxed">
+                I am a curious, self-motivated, and hardworking learner who enjoys solving problems and taking on new challenges. I believe in continuous learning and always look for opportunities to grow as a developer. My goal is to become a skilled Software Engineer and contribute to impactful projects in the tech industry.
               </p>
             </div>
           </div>
